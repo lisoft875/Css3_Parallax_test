@@ -1,0 +1,15 @@
+{
+  "name": "tangello",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Training project of Trello implementation in AngularJS",
+  "repository": "https://github.com/kvindasAB/tangello",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.11.4",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

@@ -1,0 +1,37 @@
+@base-white: #ffffff;
+@base-red: #c33932;
+@base-dark-red: #b23931;
+@base-grey: #eeeeee;
+.navbar-nav {
+  float: right;
+}
+
+.navbar-brand {
+  font-family: 'Bentham', serif;
+  font-size: 84px;
+}
+
+.navbar-inverse {
+  background-color: @base-red;
+  height: 120px;
+  padding-top: 46px;
+  color: @base-white;
+}
+
+.navbar-inverse .navbar-brand {
+  color: @base-white;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: @base-dark-red;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: @base-white;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: @base-grey;
+  font-weight: bold;
+}
